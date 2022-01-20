@@ -5,17 +5,55 @@ body{
     /* margin: 0; */
     background-image: url("../assets/home/background-home-desktop.jpg");
     background-size: cover;
-    width: 1440px;
-    height: 900px;
+    /* width: 1440px; */
+    /* height: 900px; */
     margin: 0;
+    padding-top: 40px;
+    padding-left: 55px;
+}
+
+p{
+    margin: 0;
+    line-height: 2;
+}
+h1{
+    font-size: 150px;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+}
+h2{
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+
+}
+h3{
+    font-size: 56px;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+
+}
+h4{
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+
+}
+h5{
+    font-size: 28px;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+
 }
 
 /* Class styles */
 .top-container{
-    margin-top: 40px;
-    margin-left: 55px;
+    /* margin-top: 40px; */
+    /* margin-left: 55px; */
     height: 96px;
-    width: 1385px;
+    /* width: 1385px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,12 +67,12 @@ body{
 }
 .top-line{
     border-top: solid;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: FFFFFF;
     height: 0px;
     width: 473px;
     position: relative;
-    left: 40px;
+    left: 60px;
     /* display: inline-block; */
 }
 
@@ -49,9 +87,59 @@ body{
     align-items: center;
 }
 
+.menu{
+    height: 96px;
+    display: grid;
+    place-items: center;
+}
+
+.select-menu{
+    border-bottom: solid;
+}
+
+.bottom-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-between;
+    margin: 140px 110px;
+    /* justify-content: space-around; */
+}
 
 .left-container{
     height: 382px;
     width: 450px;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;
 }
+
+.explore-btn{
+    height: 274px;
+    width: 274px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    color: #0B0D17;
+    /* text-align: center; */
+    display: grid;
+    place-items: center;
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/
+}
+
+/* .explore-btn-hover{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    background-color: none;
+    text-decoration: none; 
+    place-items: center;    
+}
+.explore-btn-hover:hover{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.4);
+    text-decoration: none; 
+    display: grid;
+    place-items: center;    
+} */
 /* ID styles */
