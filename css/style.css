@@ -92,8 +92,14 @@ h5{
     display: grid;
     place-items: center;
 }
-
+.menu:hover{
+    border-bottom: solid;
+    border-color: #D0D6F9;
+}
 .select-menu{
+    height: 96px;
+    display: grid;
+    place-items: center;
     border-bottom: solid;
 }
 
@@ -102,6 +108,8 @@ h5{
     align-items: flex-end;
     justify-content:space-between;
     margin: 140px 110px;
+    position: relative;
+    /* bottom: 88px; */
     /* justify-content: space-around; */
 }
 
@@ -113,10 +121,15 @@ h5{
     justify-content:space-between;
 }
 
+.right-contaner{
+    position: relative;
+    top: 88px;
+}
 .explore-btn{
     height: 274px;
     width: 274px;
     border-radius: 100%;
+    background-clip: padding-box;/* 背景色をpaddingまでにする(borderまで適用しない)*/
     background-color: #FFFFFF;
     color: #0B0D17;
     /* text-align: center; */
@@ -125,21 +138,20 @@ h5{
     text-decoration: none; /* リンクに出てくる下線を無効にする*/
 }
 
-/* .explore-btn-hover{
+.explore-btn-hover{
     width: 450px;
     height: 450px;
     border-radius: 100%;
     background-color: none;
     text-decoration: none; 
     place-items: center;    
+    display: grid;
+    place-items: center;
+    overflow: hidden;    
 }
 .explore-btn-hover:hover{
-    width: 450px;
-    height: 450px;
-    border-radius: 100%;
     background-color: rgba(255,255,255,0.4);
-    text-decoration: none; 
-    display: grid;
-    place-items: center;    
-} */
+    transition: 1s ease all
+}
+
 /* ID styles */
