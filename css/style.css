@@ -1,0 +1,57 @@
+/* Tag styles */
+body{
+    color: #D0D6F9;
+    background-color: #0B0D17;
+    /* margin: 0; */
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    width: 1440px;
+    height: 900px;
+    margin: 0;
+}
+
+/* Class styles */
+.top-container{
+    margin-top: 40px;
+    margin-left: 55px;
+    height: 96px;
+    width: 1385px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-mark{
+    height: 48px;
+    width: 48px;
+    /* padding: 40px 55px; */
+    /* margin: auto; */
+    /* float: left; */
+}
+.top-line{
+    border-top: solid;
+    border-width: 1px;
+    border-color: FFFFFF;
+    height: 0px;
+    width: 473px;
+    position: relative;
+    left: 40px;
+    /* display: inline-block; */
+}
+
+.top-menu{
+    background-color: rgba(255,255,255,0.4);
+    color: #FFFFFF;
+    /* display: inline-block; */
+    height: 96px;
+    width: 830px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.left-container{
+    height: 382px;
+    width: 450px;
+}
+/* ID styles */
