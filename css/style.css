@@ -3,7 +3,7 @@ body{
     color: #D0D6F9;
     background-color: #0B0D17;
     /* margin: 0; */
-    background-image: url("../assets/home/background-home-desktop.jpg");
+    /* background-image: url("../assets/home/background-home-desktop.jpg"); */
     background-size: cover;
     /* width: 1440px; */
     /* height: 900px; */
@@ -11,7 +11,16 @@ body{
     padding-top: 40px;
     padding-left: 55px;
 }
-
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+a:visited{
+    color: inherit; 
+}
+a:any-link {
+    color: inherit;
+}
 p{
     margin: 0;
     line-height: 2;
@@ -45,10 +54,31 @@ h5{
     margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
+    letter-spacing: 4.75px;
 
 }
 
 /* Class styles */
+.Subheading-1{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+.Subheading-2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.35px;
+
+}
+.Nav-Text{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+}
+
+
 .top-container{
     /* margin-top: 40px; */
     /* margin-left: 55px; */
@@ -102,56 +132,22 @@ h5{
     place-items: center;
     border-bottom: solid;
 }
-
+.menu-number{
+    font-weight: bold;
+}
 .bottom-container{
     display: flex;
-    align-items: flex-end;
-    justify-content:space-between;
+
     margin: 140px 110px;
-    position: relative;
-    /* bottom: 88px; */
-    /* justify-content: space-around; */
 }
 
 .left-container{
-    height: 382px;
-    width: 450px;
     display: flex;
     flex-flow: column;
     justify-content:space-between;
 }
 
-.right-contaner{
-    position: relative;
-    top: 88px;
-}
-.explore-btn{
-    height: 274px;
-    width: 274px;
-    border-radius: 100%;
-    background-clip: padding-box;/* 背景色をpaddingまでにする(borderまで適用しない)*/
-    background-color: #FFFFFF;
-    color: #0B0D17;
-    /* text-align: center; */
-    display: grid;
-    place-items: center;
-    text-decoration: none; /* リンクに出てくる下線を無効にする*/
-}
 
-.explore-btn-hover{
-    width: 450px;
-    height: 450px;
-    border-radius: 100%;
-    background-color: none;
-    text-decoration: none; 
-    place-items: center;    
-    display: grid;
-    place-items: center;
-    overflow: hidden;    
-}
-.explore-btn-hover:hover{
-    background-color: rgba(255,255,255,0.4);
-    transition: 1s ease all
-}
+
 
 /* ID styles */

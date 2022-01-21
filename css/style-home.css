@@ -1,0 +1,42 @@
+body{
+    background-image: url("../assets/home/background-home-desktop.jpg");
+}
+.bottom-container{
+    align-items: flex-end;
+    justify-content:space-between;
+}
+.left-container{
+    height: 382px;
+    width: 450px;
+}
+.right-contaner{
+    position: relative;
+    top: 88px;
+}
+.explore-btn{
+    height: 274px;
+    width: 274px;
+    border-radius: 100%;
+    background-clip: padding-box;/* 背景色をpaddingまでにする(borderまで適用しない)*/
+    background-color: #FFFFFF;
+    color: #0B0D17;
+    /* text-align: center; */
+    display: grid;
+    place-items: center;
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/
+}
+
+.explore-btn-hover{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    background-color: none;
+    place-items: center;    
+    display: grid;
+    place-items: center;
+    overflow: hidden;    
+}
+.explore-btn-hover:hover{
+    background-color: rgba(255,255,255,0.4);
+    transition: 1s ease all
+}
