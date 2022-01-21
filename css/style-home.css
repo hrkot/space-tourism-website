@@ -2,7 +2,7 @@ body{
     background-image: url("../assets/home/background-home-desktop.jpg");
 }
 .bottom-container{
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content:space-between;
 }
 .left-container{
@@ -11,8 +11,8 @@ body{
     justify-content:space-between;
 }
 .right-contaner{
-    position: relative;
-    top: 88px;
+    /* position: relative; */
+    /* top: 88px; */
 }
 .explore-btn{
     height: 274px;
