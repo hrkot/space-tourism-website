@@ -3,13 +3,13 @@ body{
     color: #D0D6F9;
     background-color: #0B0D17;
     /* margin: 0; */
-    /* background-image: url("../assets/home/background-home-desktop.jpg"); */
     background-size: cover;
     /* width: 1440px; */
     /* height: 900px; */
     margin: 0;
     padding-top: 40px;
     padding-left: 55px;
+
 }
 a{
     text-decoration: none;
@@ -23,52 +23,58 @@ a:any-link {
 }
 p{
     margin: 0;
+    /* line-height: 2; */
+}
+/* Class styles */
+.bodytext{
     line-height: 2;
 }
-h1{
+.heading-1{
     font-size: 150px;
     font-family: 'Bellefair', serif;
     font-weight: 400;
+    text-transform: uppercase;
 }
-h2{
+.heading-2{
     font-size: 100px;
     margin: 0;
     font-family: 'Bellefair', serif;
     font-weight: 400;
-
+    text-transform: uppercase;
 }
-h3{
+.heading-3{
     font-size: 56px;
     font-family: 'Bellefair', serif;
     font-weight: 400;
-
+    text-transform: uppercase;
 }
-h4{
+.heading-4{
     font-size: 32px;
     font-family: 'Bellefair', serif;
     font-weight: 400;
-
+    text-transform: uppercase;
 }
-h5{
+.heading-5{
     font-size: 28px;
     margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     letter-spacing: 4.75px;
-
+    text-transform: uppercase;
 }
 
-/* Class styles */
 .Subheading-1{
     font-family: 'Bellefair', serif;
     font-size: 28px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 .Subheading-2{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2.35px;
+    text-transform: uppercase;
 
 }
 .Nav-Text{
@@ -76,6 +82,7 @@ h5{
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 2.7px;
+    text-transform: uppercase;
 }
 
 
@@ -137,14 +144,14 @@ h5{
 }
 .bottom-container{
     display: flex;
-
-    margin: 140px 110px;
+    /* align-items: flex-start; */
+    margin: 140px 110px 0px;
 }
 
 .left-container{
     display: flex;
     flex-flow: column;
-    justify-content:space-between;
+
 }
 
 

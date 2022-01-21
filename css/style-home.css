@@ -8,6 +8,7 @@ body{
 .left-container{
     height: 382px;
     width: 450px;
+    justify-content:space-between;
 }
 .right-contaner{
     position: relative;
@@ -38,5 +39,5 @@ body{
 }
 .explore-btn-hover:hover{
     background-color: rgba(255,255,255,0.4);
-    transition: 1s ease all
+    transition: 0.1s ease all
 }
