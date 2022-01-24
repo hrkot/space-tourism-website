@@ -142,6 +142,10 @@ p{
 .menu-number{
     font-weight: bold;
 }
+.select-number{
+    font-weight: bold;
+    color: rgba(255,255,255,0.25);
+}
 .bottom-container{
     display: flex;
     /* align-items: flex-start; */

@@ -1,0 +1,43 @@
+body{
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+}
+.bottom-container{
+    display: block;
+    margin-right: 0px;
+}
+
+.bottom-info{
+    display:flex;
+    align-items: center;
+}
+.bottom-info-left{
+    display: flex;
+    align-items: flex-start;
+}
+.bottom-select{
+    margin-right: 80px;
+}
+.btm-slct-num{
+    height: 80px;
+    width: 80px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.btm-slct-num:hover{
+    background-color: rgba(255,255,255,0.2)
+}
+.btm-slct-this{
+    background-color: #FFFFFF;
+    color: #0B0D17;
+}
+.btm-slct-others{
+    background-color: #0B0D17;
+}
+.btm-title{
+    margin: 10px 0px;
+}
